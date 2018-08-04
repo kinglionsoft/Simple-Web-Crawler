@@ -15,6 +15,6 @@ namespace Wesley.Crawler.SimpleCrawler
 
         event EventHandler<OnErrorEventArgs> OnError;//爬虫出错事件
 
-        Task<string> Start(Uri uri, string proxy); //异步爬虫
+        string Start(Uri uri, string proxy, object custom); //异步爬虫
     }
 }
