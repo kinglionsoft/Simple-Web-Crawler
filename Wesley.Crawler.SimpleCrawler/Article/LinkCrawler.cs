@@ -14,7 +14,7 @@ namespace Wesley.Crawler.SimpleCrawler.Article
         private readonly RegexCleaner<Chapter> _linkCleaner;
         private readonly TagCleaner _bodyCleaner;
 
-        private readonly StreamWriter _writer = new StreamWriter(@"d:\test\我姐姐是大明星.txt", false);
+        private readonly StreamWriter _writer = new StreamWriter(@"xx.txt", false);
 
         public LinkCrawler(string url)
         {

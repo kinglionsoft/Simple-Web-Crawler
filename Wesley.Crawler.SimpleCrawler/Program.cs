@@ -21,7 +21,7 @@ namespace Wesley.Crawler.SimpleCrawler
             //测试当前爬虫的User-Agent：http://www.whatismyuseragent.net
 
 
-            var crawler = new LinkCrawler("https://www.dingdiann.com/ddk95247/");
+            var crawler = new LinkCrawler("");
             crawler.Start();
             
             Console.ReadKey();
